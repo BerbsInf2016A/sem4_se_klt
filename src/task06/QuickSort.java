@@ -7,6 +7,13 @@ import java.util.List;
 public class QuickSort implements ISortStrategy {
 
 
+    /**
+     * Do the quicksort operation.
+     *
+     * @param list The list to work on.
+     * @param from The start index of the sort operation.
+     * @param to   The end index of the sort operation.
+     */
     private static void sort(List<Integer> list, int from, int to) {
         if (from < to) {
             int left = from + 1;
@@ -31,6 +38,11 @@ public class QuickSort implements ISortStrategy {
         }
     }
 
+    /**
+     * Execute the sort operation.
+     *
+     * @param data The data to sort.
+     */
     public void executeSort(List<Integer> data) {
         sort(data, 0, data.size() - 1);
     }
