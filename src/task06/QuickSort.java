@@ -6,7 +6,6 @@ import java.util.List;
 
 public class QuickSort implements ISortStrategy {
 
-
     /**
      * Do the quicksort operation.
      *

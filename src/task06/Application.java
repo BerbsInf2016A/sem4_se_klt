@@ -6,8 +6,7 @@ public class Application {
     public static void main(String[] args) {
         DataStorage storage = new DataStorage(64);
 
-
-        SortContext context = new SortContext(new QuickSort());
+        SortProcess context = new SortProcess(new QuickSort());
         storage.addListener(context);
 
         storage.changeStorage();
@@ -16,13 +15,11 @@ public class Application {
 
         storage.removeListener(context);
 
-        context = new SortContext(new MergeSort());
+        context = new SortProcess(new MergeSort());
         storage.addListener(context);
 
         storage.changeStorage();
 
         System.out.println("Sorted memory: " + Arrays.toString(storage.getMemory().toArray()));
-
-
     }
 }

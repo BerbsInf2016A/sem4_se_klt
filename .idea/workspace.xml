@@ -3,28 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4cc1f6a8-739a-43a3-aa78-c5838b2f0f78" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/task02/Computer.class" afterPath="$PROJECT_DIR$/build/task02/Computer.class" />
-      <change beforePath="$PROJECT_DIR$/build/task02/SystemProcess.class" afterPath="$PROJECT_DIR$/build/task02/SystemProcess.class" />
-      <change beforePath="$PROJECT_DIR$/build/task02/USB3DVDBurner.class" afterPath="$PROJECT_DIR$/build/task02/USB3DVDBurner.class" />
-      <change beforePath="$PROJECT_DIR$/build/task02/USB3DVDBurnerAdapter.class" afterPath="$PROJECT_DIR$/build/task02/USB3DVDBurnerAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/build/task06/Application.class" afterPath="$PROJECT_DIR$/build/task06/Application.class" />
-      <change beforePath="$PROJECT_DIR$/build/task06/DataStorage.class" afterPath="$PROJECT_DIR$/build/task06/DataStorage.class" />
-      <change beforePath="$PROJECT_DIR$/build/task06/MergeSort.class" afterPath="$PROJECT_DIR$/build/task06/MergeSort.class" />
-      <change beforePath="$PROJECT_DIR$/build/task06/MersenneTwisterFast.class" afterPath="$PROJECT_DIR$/build/task06/MersenneTwisterFast.class" />
-      <change beforePath="$PROJECT_DIR$/build/task06/QuickSort.class" afterPath="$PROJECT_DIR$/build/task06/QuickSort.class" />
-      <change beforePath="$PROJECT_DIR$/build/task06/SortContext.class" afterPath="$PROJECT_DIR$/build/task06/SortContext.class" />
-      <change beforePath="$PROJECT_DIR$/src/task02/Computer.java" afterPath="$PROJECT_DIR$/src/task02/Computer.java" />
-      <change beforePath="$PROJECT_DIR$/src/task02/IUSB2Device.java" afterPath="$PROJECT_DIR$/src/task02/IUSB2Device.java" />
-      <change beforePath="$PROJECT_DIR$/src/task02/IUSB2DeviceConnectedListener.java" afterPath="$PROJECT_DIR$/src/task02/IUSB2DeviceConnectedListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/task02/SystemProcess.java" afterPath="$PROJECT_DIR$/src/task02/SystemProcess.java" />
-      <change beforePath="$PROJECT_DIR$/src/task02/USB3DVDBurner.java" afterPath="$PROJECT_DIR$/src/task02/USB3DVDBurner.java" />
-      <change beforePath="$PROJECT_DIR$/src/task02/USB3DVDBurnerAdapter.java" afterPath="$PROJECT_DIR$/src/task02/USB3DVDBurnerAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/src/task06/DataStorage.java" afterPath="$PROJECT_DIR$/src/task06/DataStorage.java" />
-      <change beforePath="$PROJECT_DIR$/src/task06/ISortStrategy.java" afterPath="$PROJECT_DIR$/src/task06/ISortStrategy.java" />
-      <change beforePath="$PROJECT_DIR$/src/task06/IStorageChangedListener.java" afterPath="$PROJECT_DIR$/src/task06/IStorageChangedListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/task06/MergeSort.java" afterPath="$PROJECT_DIR$/src/task06/MergeSort.java" />
+      <change beforePath="$PROJECT_DIR$/src/task02/Application.java" afterPath="$PROJECT_DIR$/src/task02/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/task06/Application.java" afterPath="$PROJECT_DIR$/src/task06/Application.java" />
       <change beforePath="$PROJECT_DIR$/src/task06/QuickSort.java" afterPath="$PROJECT_DIR$/src/task06/QuickSort.java" />
-      <change beforePath="$PROJECT_DIR$/src/task06/SortContext.java" afterPath="$PROJECT_DIR$/src/task06/SortContext.java" />
+      <change beforePath="$PROJECT_DIR$/src/task06/SortContext.java" afterPath="$PROJECT_DIR$/src/task06/SortProcess.java" />
+      <change beforePath="$PROJECT_DIR$/task02.EAP" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/task06.EAP" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,10 +39,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/task02/Application.java" />
         <option value="$PROJECT_DIR$/src/task06/SortContex.java" />
         <option value="$PROJECT_DIR$/src/task06/MersenneTwisterFast.java" />
-        <option value="$PROJECT_DIR$/src/task06/Application.java" />
         <option value="$PROJECT_DIR$/src/task02/Computer.java" />
         <option value="$PROJECT_DIR$/src/task02/IUSB2Device.java" />
         <option value="$PROJECT_DIR$/src/task02/IUSB2DeviceConnectedListener.java" />
@@ -69,8 +51,11 @@
         <option value="$PROJECT_DIR$/src/task06/ISortStrategy.java" />
         <option value="$PROJECT_DIR$/src/task06/IStorageChangedListener.java" />
         <option value="$PROJECT_DIR$/src/task06/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/task06/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/task06/SortContext.java" />
+        <option value="$PROJECT_DIR$/src/task06/SortProcess.java" />
+        <option value="$PROJECT_DIR$/src/task06/Application.java" />
+        <option value="$PROJECT_DIR$/src/task06/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/task02/Application.java" />
       </list>
     </option>
   </component>
@@ -168,7 +153,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,8 +184,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,14 +222,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="task06.*" />
+          <option name="PATTERN" value="task02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="task06.Application" />
+      <option name="MAIN_CLASS_NAME" value="task02.Application" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -259,11 +244,11 @@
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="task02.*" />
+          <option name="PATTERN" value="task06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="task02.Application" />
+      <option name="MAIN_CLASS_NAME" value="task06.Application" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -375,43 +360,44 @@
       <updated>1514404021808</updated>
       <workItem from="1518427633489" duration="2786000" />
       <workItem from="1518438250473" duration="3121000" />
+      <workItem from="1519237981436" duration="1737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5907000" />
+    <option name="totallyTimeSpent" value="7644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -454,7 +440,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/task06/QuickSort.java</url>
-          <line>46</line>
+          <line>45</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -468,9 +454,9 @@
         <state relative-caret-position="136">
           <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,8 +466,8 @@
         <state relative-caret-position="3298">
           <caret line="194" column="8" lean-forward="false" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
           <folding>
-            <element signature="e#28426#28427#0" expanded="true" />
-            <element signature="e#28472#28473#0" expanded="true" />
+            <element signature="e#28426#28427#0" expanded="false" />
+            <element signature="e#28472#28473#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -499,7 +485,7 @@
         <state relative-caret-position="493">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -508,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,12 +502,12 @@
         <state relative-caret-position="187">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#840#841#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,8 +568,8 @@
         <state relative-caret-position="3145">
           <caret line="194" column="8" lean-forward="false" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
           <folding>
-            <element signature="e#28426#28427#0" expanded="true" />
-            <element signature="e#28472#28473#0" expanded="true" />
+            <element signature="e#28426#28427#0" expanded="false" />
+            <element signature="e#28472#28473#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,18 +579,10 @@
         <state relative-caret-position="51">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/task02/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,8 +607,8 @@
         <state relative-caret-position="323">
           <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -642,19 +618,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/task02/USB3DVDBurnerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,9 +629,9 @@
         <state relative-caret-position="712">
           <caret line="75" column="53" lean-forward="false" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,7 +657,7 @@
         <state relative-caret-position="508">
           <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,13 +679,120 @@
         <state relative-caret-position="578">
           <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#840#841#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/task02">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>task02</OriginalElement>
+          <nodes>
+            <node x="416.0" y="416.0">task02.Application</node>
+            <node x="194.0" y="219.0">task02.USB3DVDBurner</node>
+            <node x="0.0" y="416.0">task02.Computer</node>
+            <node x="0.0" y="219.0">task02.IUSB2Device</node>
+            <node x="43.0" y="0.0">task02.IUSB2DeviceConnectedListener</node>
+            <node x="96.5" y="320.0">task02.USB3DVDBurnerAdapter</node>
+            <node x="0.0" y="101.0">task02.SystemProcess</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="task02.USB3DVDBurnerAdapter" target="task02.IUSB2Device">
+              <point x="-43.75" y="-25.5" />
+              <point x="140.25" y="295.0" />
+              <point x="87.0" y="295.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="task02.USB3DVDBurnerAdapter" target="task02.USB3DVDBurner">
+              <point x="43.75" y="-25.5" />
+              <point x="227.75" y="295.0" />
+              <point x="281.0" y="295.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="task02.SystemProcess" target="task02.IUSB2DeviceConnectedListener">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-273.0" y="-31.5" />
+          <SelectedNodes>
+            <node>task02.Application</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task02/USB3DVDBurnerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task02/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/task06">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>task06</OriginalElement>
+          <nodes>
+            <node x="225.0" y="153.0">task06.MersenneTwisterFast</node>
+            <node x="123.0" y="79.0">task06.QuickSort</node>
+            <node x="35.0" y="232.0">task06.SortContext</node>
+            <node x="0.0" y="306.0">task06.DataStorage</node>
+            <node x="0.0" y="153.0">task06.IStorageChangedListener</node>
+            <node x="157.0" y="306.0">task06.Application</node>
+            <node x="0.0" y="79.0">task06.MergeSort</node>
+            <node x="54.75" y="0.0">task06.ISortStrategy</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="task06.SortContext" target="task06.IStorageChangedListener">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="task06.MergeSort" target="task06.ISortStrategy">
+              <point x="0.0" y="-14.5" />
+              <point x="51.5" y="54.0" />
+              <point x="83.5" y="54.0" />
+              <point x="-28.75" y="14.5" />
+            </edge>
+            <edge source="task06.QuickSort" target="task06.ISortStrategy">
+              <point x="0.0" y="-14.5" />
+              <point x="173.0" y="54.0" />
+              <point x="141.0" y="54.0" />
+              <point x="28.75" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="192.0" y="167.5" />
+          <SelectedNodes>
+            <node>task06.MersenneTwisterFast</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

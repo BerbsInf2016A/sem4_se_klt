@@ -5,20 +5,19 @@ import java.util.List;
 /**
  * The context for the sort operations.
  */
-public class SortContext implements IStorageChangedListener {
+public class SortProcess implements IStorageChangedListener {
 
     /**
      * The sort strategy.
      */
     private ISortStrategy strategy;
 
-
     /**
-     * Constructor for the sort context.
+     * Constructor for the sort process..
      *
      * @param strategy The strategy, which should be used.
      */
-    public SortContext(ISortStrategy strategy) {
+    public SortProcess(ISortStrategy strategy) {
         this.strategy = strategy;
     }
 

@@ -8,6 +8,5 @@ public class Application {
 
         IUSB2Device dvdBurner = new USB3DVDBurnerAdapter();
         computer.plugin(dvdBurner);
-
     }
 }
